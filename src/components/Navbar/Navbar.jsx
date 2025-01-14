@@ -9,9 +9,9 @@ const Navbar = () => {
                     <h1 className='font-black'>Home</h1>
                 </div>
                 <div className='flex space-x-20 mr-28 italic font-black'>
-                <Link href="/login" className="hover:text-gray-300">Signup</Link>
+                <Link href="/signup" className="hover:text-gray-300">Signup</Link>
                 <Link href="/login" className="hover:text-gray-300">Login</Link>
-                <Link href="/login" className="hover:text-gray-300">About</Link>
+                <Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>
                 </div>
             </div>
     </div>
